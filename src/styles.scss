@@ -1,0 +1,33 @@
+@import "/node_modules/bootstrap/dist/css/bootstrap";
+
+.hoverable:hover {
+    box-shadow: 5px 5px 5px #72563181;
+}
+
+.main {
+    margin-top: 50px;
+    width: 75%;
+    height: 75vh;
+    background-color: seashell;
+    color: rgb(114, 86, 49);
+    box-shadow: 5px 5px 5px #72563181;
+
+}
+
+.border {
+    border-radius: 25px;
+    padding: 25px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.sidebar {
+    background-color: #725631;
+}
+
+.note {
+    background-color: antiquewhite;
+    color: #725631;
+}

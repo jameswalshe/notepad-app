@@ -1,0 +1,19 @@
+<form [formGroup]="noteForm" (ngSubmit)="saveNote()">
+  <div class="row">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Name</label>
+      <input type="text" formControlName="name" class="form-control" aria-describedby="emailHelp">
+    </div>
+  </div>
+  <div class="row">
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Note</label>
+      <textarea style="height: 25vh;" formControlName="note" type="textarea" class="form-control"></textarea>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button class="btn btn-success me-md-2">Save</button>
+    </div>
+  </div>
+</form>
